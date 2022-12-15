@@ -7,8 +7,10 @@ open System.Threading.Tasks
 open Microsoft.AspNetCore.Mvc
 open Microsoft.Extensions.Logging
 
+
+
 type HomeController (logger : ILogger<HomeController>) =
-    inherit Controller()
+    inherit Controller()Loading Some Error!
 
     member this.Index () =
         this.View()
