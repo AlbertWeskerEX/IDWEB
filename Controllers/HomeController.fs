@@ -10,7 +10,7 @@ open Microsoft.Extensions.Logging
 
 
 type HomeController (logger : ILogger<HomeController>) =
-    inherit Controller()Loading Some Error!
+    inherit Controller()
 
     member this.Index () =
         this.View()
